@@ -5,7 +5,7 @@
     "brand": "Mercedes-Benz",
     "category": "Luxury",
     "hourlyPrice": 44995,
-    "dailyPrice": 38000,
+    "dailyPrice": 100000000,
     "description": "The ultimate symbol of off-road prowess and opulent luxury. Featuring a twin-turbo V8, side exhausts, and handcrafted diamond-stitched Nappa leather interior.",
     "images": [
       "https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=1200&q=80",
@@ -30,7 +30,7 @@
       "Massaging Heated Seats",
       "Apple CarPlay & Android Auto"
     ],
-    "updatedAt": "2026-11-12T09:55:10.193Z"
+    "updatedAt": "2026-11-12T10:23:47.033Z"
   },
   {
     "id": "car-2",
