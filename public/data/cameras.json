@@ -1,0 +1,262 @@
+[
+  {
+    "id": "cam-1",
+    "name": "Sony FX6 Cinema Line Full-Frame Camera",
+    "brand": "Sony",
+    "model": "ILME-FX6V",
+    "category": "Mirrorless Cameras",
+    "hourlyPrice": 900,
+    "dailyPrice": 6500,
+    "description": "Professional full-frame cinema camera featuring 4K 120p, 15+ stops dynamic range, high-sensitivity dual base ISO (800/12800), and revolutionary electronic variable ND filter.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": true,
+    "active": true,
+    "specs": {
+      "sensor": "10.2 MP Full-Frame Back-Illuminated Exmor R CMOS",
+      "mount": "Sony E-Mount",
+      "videoResolution": "4K DCI up to 60p, 4K UHD up to 120p, FHD 240p",
+      "codec": "XAVC-I 4:2:2 10-Bit, 16-Bit RAW Output via SDI",
+      "dynamicRange": "15+ Stops in S-Log3",
+      "dualBaseISO": "800 / 12,800 ISO"
+    },
+    "includedAccessories": [
+      "Top Handle with XLR Audio Inputs",
+      "3.5-inch LCD Monitor with Sun Hood",
+      "Grip Remote Control",
+      "2x Sony BP-U60 Batteries & Dual Charger",
+      "2x 160GB CFexpress Type A Cards & Fast Reader",
+      "Heavy-Duty Pelican Hard Case"
+    ],
+    "features": [
+      "Electronic Variable ND Filter (1/4 to 1/128)",
+      "Real-Time Eye AF & Face Detection",
+      "Dual Base ISO for Grain-Free Low-Light Cinema",
+      "12G-SDI & Full HDMI Video Outputs"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "cam-2",
+    "name": "Sony Alpha A7S III Mirrorless Camera",
+    "brand": "Sony",
+    "model": "ILCE-7SM3",
+    "category": "Mirrorless Cameras",
+    "hourlyPrice": 500,
+    "dailyPrice": 3600,
+    "description": "The low-light champion. 4K 120p 10-bit internal recording, astonishing low-light performance up to ISO 409,600, and ultra-reliable phase-detection autofocus.",
+    "images": [
+      "https://images.unsplash.com/photo-1581591524425-c7e0978865fc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": true,
+    "active": true,
+    "specs": {
+      "sensor": "12.1 MP Full-Frame Exmor R BSI CMOS",
+      "mount": "Sony E-Mount",
+      "videoResolution": "UHD 4K 120p 4:2:2 10-Bit Internal",
+      "codec": "XAVC S-I All-Intra",
+      "stabilization": "5-Axis In-Body Sensor-Shift Stabilization",
+      "isoRange": "80-102,400 (Expandable to 40-409,600)"
+    },
+    "includedAccessories": [
+      "SmallRig Full Camera Cage with Top Handle",
+      "3x Sony NP-FZ100 Batteries & Dual Rapid Charger",
+      "2x 128GB SanDisk Extreme PRO V90 SDXC Cards",
+      "HDMI Clamp & Micro-HDMI to Full Cable",
+      "Padded Cine Shoulder Bag"
+    ],
+    "features": [
+      "No 30-Minute Video Recording Limit",
+      "Vari-Angle Touchscreen LCD",
+      "9.44 Million-Dot Ultra-HD OLED Viewfinder",
+      "Full-Size HDMI Port"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "cam-3",
+    "name": "Canon EOS R5 C Cinema Mirrorless",
+    "brand": "Canon",
+    "model": "EOS R5 C",
+    "category": "Mirrorless Cameras",
+    "hourlyPrice": 750,
+    "dailyPrice": 5500,
+    "description": "A true hybrid marvel combining 45MP high-resolution photography with internal 8K 60p Cinema RAW Light and active cooling for non-stop shooting.",
+    "images": [
+      "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": true,
+    "active": true,
+    "specs": {
+      "sensor": "45 MP Full-Frame CMOS Sensor",
+      "mount": "Canon RF Mount (EF adapter included)",
+      "videoResolution": "8K 60p RAW Light, 4K 120p 4:2:2 10-bit",
+      "cooling": "Built-In Active Cooling Fan System",
+      "autofocus": "Dual Pixel CMOS AF II with Eye & Vehicle Detect"
+    },
+    "includedAccessories": [
+      "Canon EF-to-RF Mount Adapter with Control Ring",
+      "3x LP-E6NH Batteries + Power Delivery Bank",
+      "1x 512GB CFexpress Type B Card & USB-C Reader",
+      "Cage & Cable Protector",
+      "Waterproof Hard Flight Case"
+    ],
+    "features": [
+      "Internal 8K RAW Video without Overheating",
+      "Dedicated Photo / Cinema Operating Modes",
+      "Dual Card Slots (CFexpress B + SDXC UHS-II)",
+      "Canon Log 3 Gamma Curve"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "cam-4",
+    "name": "Sony FE 24-70mm f/2.8 GM II Lens",
+    "brand": "Sony G Master",
+    "model": "SEL2470GM2",
+    "category": "Lenses",
+    "hourlyPrice": 250,
+    "dailyPrice": 1800,
+    "description": "The gold-standard standard zoom lens. Incredibly sharp from corner to corner, featherlight weight, lightning-fast quad XD linear motors, and creamy circular bokeh.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": false,
+    "active": true,
+    "specs": {
+      "focalLength": "24-70mm",
+      "maxAperture": "f/2.8 constant across entire range",
+      "filterSize": "82mm",
+      "elements": "20 Elements in 15 Groups (2 XA Elements)",
+      "weight": "695 grams (World's lightest 24-70 f/2.8)"
+    },
+    "includedAccessories": [
+      "Lens Petal Hood with Filter Adjustment Window",
+      "Front & Rear Caps",
+      "B+W 82mm Nano Clear Protection Filter",
+      "Deluxe Padded Lens Case"
+    ],
+    "features": [
+      "Aperture Ring with Click / De-Click Switch",
+      "Iris Lock Switch",
+      "Dust and Moisture Resistant Sealed Design",
+      "Minimal Focus Breathing for Video"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "cam-5",
+    "name": "Aputure LS 600d Pro Daylight LED Kit",
+    "brand": "Aputure",
+    "model": "Light Storm 600d Pro",
+    "category": "Lighting Equipment",
+    "hourlyPrice": 400,
+    "dailyPrice": 2800,
+    "description": "Mammoth 600W daylight-balanced COB LED light equivalent to a 1200W HMI. Weather-resistant IP54 construction, wireless Sidus Link app control, and Bowens mount.",
+    "images": [
+      "https://images.unsplash.com/photo-1527011046414-4781f1f94f8c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": false,
+    "active": true,
+    "specs": {
+      "colorTemp": "5600K Daylight CCT",
+      "criTlcI": "96+ CRI, 98+ TLCI",
+      "lux": "29,300+ Lux at 3m with Hyper Reflector",
+      "dimming": "0-100% Stepless (Exponential, Linear, S-Curve)",
+      "mount": "Standard Bowens Mount"
+    },
+    "includedAccessories": [
+      "Aputure Light Dome 150 Softbox with Grid",
+      "Hyper Reflector Dish (55 Degree)",
+      "Control Box with V-Mount Battery Plates",
+      "Neutrik PowerCON TRUE1 Cable (6m)",
+      "Heavy Duty C-Stand with Sandbag",
+      "Rolling Transport Flight Case"
+    ],
+    "features": [
+      "IP54 Dust & Rain Resistance",
+      "Built-in Lighting FX (Lightning, Paparazzi, Faulty Bulb)",
+      "Wireless Control via Sidus Link Bluetooth App & DMX512"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "cam-6",
+    "name": "DJI Ronin RS 3 Pro Gimbal Stabilizer Combo",
+    "brand": "DJI",
+    "model": "RS 3 Pro Combo",
+    "category": "Accessories",
+    "hourlyPrice": 300,
+    "dailyPrice": 2200,
+    "description": "Flagship 3-axis cinema gimbal stabilizer with extended carbon fiber arms, 4.5kg payload capacity, automated axis locks, and LiDAR autofocus compatibility.",
+    "images": [
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": false,
+    "active": true,
+    "specs": {
+      "payload": "4.5 kg (10 lbs) Tested Payload",
+      "batteryLife": "Up to 12 Hours (Fast Charge in 1.5 Hours)",
+      "display": "1.8-inch Full-Color OLED Touchscreen",
+      "material": "Unibody Carbon Fiber Axis Arms"
+    },
+    "includedAccessories": [
+      "Focus Motor (2022) with Gear Rings",
+      "Ronin Image Transmitter (RavenEye)",
+      "Briefcase Handle for Low-Angle Tracking",
+      "Quick-Release Plates (Arca-Swiss / Manfrotto)",
+      "2x BG30 High-Capacity Battery Grips",
+      "Custom Precision Cut Carrying Case"
+    ],
+    "features": [
+      "Automated Axis Locks for Rapid Setup and Pack Down",
+      "SuperSmooth Algorithm for Cinematic High-Speed Action",
+      "Wireless Bluetooth Camera Shutter Control"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "cam-7",
+    "name": "Canon EOS 5D Mark IV DSLR Camera",
+    "brand": "Canon",
+    "model": "EOS 5D Mark IV",
+    "category": "DSLR Cameras",
+    "hourlyPrice": 350,
+    "dailyPrice": 2400,
+    "description": "The reliable workhorse DSLR beloved by portrait and wedding photographers worldwide. 30.4MP full frame with legendary Canon warm skin tones.",
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": false,
+    "featured": false,
+    "active": true,
+    "specs": {
+      "sensor": "30.4 MP Full-Frame CMOS",
+      "mount": "Canon EF Mount",
+      "videoResolution": "DCI 4K up to 30p, FHD up to 60p",
+      "autofocus": "61-Point High Density Reticular AF II",
+      "isoRange": "100-32,000 (Expandable to 50-102,400)"
+    },
+    "includedAccessories": [
+      "2x LP-E6N Batteries & Wall Charger",
+      "1x 128GB CompactFlash Card & 1x 128GB SD Card",
+      "Canon Neck Strap & Eye Cup",
+      "Weather-Resistant Shoulder Holster"
+    ],
+    "features": [
+      "Dual Pixel RAW for Micro-Adjustment & Bokeh Shift",
+      "Built-in GPS & Wi-Fi with NFC",
+      "Rugged Weather-Sealed Magnesium Alloy Body"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  }
+]

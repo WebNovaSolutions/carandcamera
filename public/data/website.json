@@ -1,0 +1,124 @@
+{
+  "name": "ApexMotion Rentals",
+  "tagline": "Premium Luxury Cars & Cinema Camera Equipment Rentals",
+  "logo": "ApexMotion",
+  "favicon": "/favicon.ico",
+  "hero": {
+    "headline": "Your Journey. Your Gear. Your Experience.",
+    "subtitle": "Experience the thrill of elite luxury cars paired with cinema-grade camera rigs. Premium rentals crafted for filmmakers, creators, road trippers, and luxury enthusiasts.",
+    "bgImage": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=80",
+    "ctaPrimary": {
+      "label": "Explore Cars",
+      "link": "/cars"
+    },
+    "ctaSecondary": {
+      "label": "Explore Cameras",
+      "link": "/cameras"
+    },
+    "stats": [
+      { "label": "Luxury Vehicles", "value": "25+" },
+      { "label": "Cinema Rigs", "value": "40+" },
+      { "label": "Happy Clients", "value": "12,000+" },
+      { "label": "Client Rating", "value": "4.9 ★" }
+    ]
+  },
+  "about": {
+    "title": "Elevating Every Drive and Every Shot",
+    "description": "We bridge the gap between luxury transportation and cinema-standard visual storytelling. Whether you are filming a high-production commercial, attending an executive gala, or embarking on a scenic mountain drive, our hand-curated fleet of premium vehicles and cutting-edge cameras deliver excellence without compromise."
+  },
+  "whyChooseUs": [
+    {
+      "id": 1,
+      "icon": "DollarSign",
+      "title": "Affordable Pricing",
+      "desc": "Transparent hourly and daily rates with zero hidden charges and competitive package discounts."
+    },
+    {
+      "id": 2,
+      "icon": "Car",
+      "title": "Premium Vehicles",
+      "desc": "Impeccably maintained luxury sedans, rugged 4x4 SUVs, and sports cars sanitized before every trip."
+    },
+    {
+      "id": 3,
+      "icon": "Camera",
+      "title": "Professional Camera Equipment",
+      "desc": "Latest Sony, Canon, RED, and Blackmagic bodies with cinema lenses and full rigging support."
+    },
+    {
+      "id": 4,
+      "icon": "MessageSquare",
+      "title": "Easy WhatsApp Booking",
+      "desc": "Instant click-to-chat reservations with fast human verification and personalized support."
+    },
+    {
+      "id": 5,
+      "icon": "Clock",
+      "title": "Flexible Rental Duration",
+      "desc": "Rent by the hour, day, week, or shoot schedule with hassle-free pickup and drop-off."
+    },
+    {
+      "id": 6,
+      "icon": "Headphones",
+      "title": "Customer Support",
+      "desc": "24/7 dedicated concierge to assist with on-road support and camera technical assistance."
+    }
+  ],
+  "howItWorks": [
+    {
+      "step": "01",
+      "title": "Choose your vehicle or camera",
+      "desc": "Browse our luxury fleet and cinema camera catalog with transparent hourly and daily pricing."
+    },
+    {
+      "step": "02",
+      "title": "Select your rental dates",
+      "desc": "Pick your desired pickup and return dates, timing, and preferred collection location."
+    },
+    {
+      "step": "03",
+      "title": "Submit enquiry via WhatsApp",
+      "desc": "Click to generate a pre-filled reservation breakdown directly on our official WhatsApp desk."
+    },
+    {
+      "step": "04",
+      "title": "Confirm & Collect",
+      "desc": "Get instant availability confirmation and flexible key handoff or camera kit handover."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Aditya Verma",
+      "role": "Cinematographer & Commercial Director",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "comment": "ApexMotion provided a Sony FX6 with a set of GM master lenses and an Audi Q7 for our automotive shoot in Himachal. Flawless service, gear in mint condition, and WhatsApp booking was lightning fast!"
+    },
+    {
+      "id": 2,
+      "name": "Rohit Malhotra",
+      "role": "Travel Content Creator",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "comment": "Renting the BMW M340i and a Sony A7S III for a weekend road trip was seamless. Transparent pricing, no hidden clauses, and the team was supportive throughout the journey."
+    },
+    {
+      "id": 3,
+      "name": "Simran Kaur",
+      "role": "Wedding & Event Producer",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "comment": "We needed 2 luxury Innova Crystas for bridal entourage and 3 Canon R5 kits with prime lenses on short notice. Delivered right to our venue on time. Highly recommended!"
+    }
+  ],
+  "ctaBanner": {
+    "title": "Ready to Gear Up for Your Next Journey?",
+    "subtitle": "Connect directly with our concierge team over WhatsApp for customized packages, vehicle availability, and gear recommendations.",
+    "buttonText": "Chat on WhatsApp Now"
+  },
+  "footer": {
+    "description": "Your ultimate destination for premium car rentals and cinema-grade camera gear. Elevating creative productions and executive travel with speed, elegance, and reliability.",
+    "copyright": "© 2026 ApexMotion Rentals. All rights reserved."
+  }
+}

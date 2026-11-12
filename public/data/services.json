@@ -1,0 +1,77 @@
+[
+  {
+    "id": "srv-1",
+    "title": "Chauffeur-Driven Luxury Fleet",
+    "category": "Automotive",
+    "description": "Professional, bilingual, uniformed chauffeurs trained in VIP protocol, executive discretion, and punctuality. Available for corporate delegations, VIP guests, airport pickups, and weddings.",
+    "hourlyPrice": 1200,
+    "dailyPrice": 9500,
+    "features": [
+      "Trained VIP Protocol Chauffeurs",
+      "Complimentary Mineral Water & Refreshment Kit",
+      "Real-Time Flight & Traffic Tracking",
+      "Spotless Sanitized Vehicles"
+    ],
+    "active": true
+  },
+  {
+    "id": "srv-2",
+    "title": "Self-Drive Luxury Rental",
+    "category": "Automotive",
+    "description": "Take full control of top-tier sports sedans, premium convertibles, and high-performance SUVs for road trips, personal leisure, and weekend getaways with zero mileage restrictions.",
+    "hourlyPrice": 1500,
+    "dailyPrice": 12000,
+    "features": [
+      "Zero Daily Kilometer Cap",
+      "Comprehensive Comprehensive Insurance Cover",
+      "Doorstep Vehicle Delivery & Pickup",
+      "24/7 Roadside Assistance & Breakdown Support"
+    ],
+    "active": true
+  },
+  {
+    "id": "srv-3",
+    "title": "Cinema Production Camera Packages",
+    "category": "Camera",
+    "description": "Turnkey cinema kit bundles configured for OTT web-series, music videos, commercials, and feature films. Includes camera bodies, prime cine lenses, matte boxes, wireless video transmitters, and monitors.",
+    "hourlyPrice": 1800,
+    "dailyPrice": 14000,
+    "features": [
+      "Turnkey Production-Ready Rigs",
+      "Matched Cinema Prime Lens Sets",
+      "Wireless Video Transmitters (Teradek/Hollyland)",
+      "V-Mount Power Solutions & High-Speed Media"
+    ],
+    "active": true
+  },
+  {
+    "id": "srv-4",
+    "title": "On-Set Camera Assistant & Tech Support",
+    "category": "Camera",
+    "description": "Experienced focus pullers (1st AC) and technical gear operators to manage equipment assembly, sensor cleaning, wireless video monitoring, and data backups during your shoot.",
+    "hourlyPrice": 600,
+    "dailyPrice": 4500,
+    "features": [
+      "Certified 1st & 2nd Camera Assistants",
+      "Rigging, Balancing & Drone Coordination",
+      "Dual Data Backup & On-Set Checksum Verification",
+      "Emergency Spare Gear Dispatch"
+    ],
+    "active": true
+  },
+  {
+    "id": "srv-5",
+    "title": "Wedding & Destination Shoot Combo",
+    "category": "Combo Package",
+    "description": "Exclusive combo bundle including luxury bridal cars (Mercedes/BMW) paired with 3 multi-cam mirrorless setups and gimbal rigs for unforgettable destination weddings.",
+    "hourlyPrice": 3000,
+    "dailyPrice": 24000,
+    "features": [
+      "1x Luxury Car + 2x Support Crew Vehicles",
+      "3x Full-Frame Camera Bodies with Master Lenses",
+      "Drone Aerial System & Lighting Kit Included",
+      "Dedicated Logistics Coordinator"
+    ],
+    "active": true
+  }
+]

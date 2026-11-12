@@ -1,0 +1,44 @@
+{
+  "headerLinks": [
+    { "id": "nav-1", "label": "Home", "path": "/" },
+    { "id": "nav-2", "label": "Luxury Cars", "path": "/cars" },
+    { "id": "nav-3", "label": "Cinema Cameras", "path": "/cameras" },
+    { "id": "nav-4", "label": "Services", "path": "/services" },
+    { "id": "nav-5", "label": "About", "path": "/about" },
+    { "id": "nav-6", "label": "Contact", "path": "/contact" }
+  ],
+  "footerColumns": [
+    {
+      "id": "col-1",
+      "title": "Fleet & Gear",
+      "links": [
+        { "label": "Luxury Sedans", "path": "/cars?category=Sedan" },
+        { "label": "High-End SUVs", "path": "/cars?category=SUV" },
+        { "label": "Cinema Mirrorless", "path": "/cameras?category=Mirrorless+Cameras" },
+        { "label": "Cinema Lenses", "path": "/cameras?category=Lenses" },
+        { "label": "Lighting Kits", "path": "/cameras?category=Lighting+Equipment" }
+      ]
+    },
+    {
+      "id": "col-2",
+      "title": "Quick Navigation",
+      "links": [
+        { "label": "About ApexMotion", "path": "/about" },
+        { "label": "Services & Packages", "path": "/services" },
+        { "label": "How It Works", "path": "/#how-it-works" },
+        { "label": "Why Choose Us", "path": "/#why-us" },
+        { "label": "Contact & Location", "path": "/contact" }
+      ]
+    },
+    {
+      "id": "col-3",
+      "title": "Concierge & Support",
+      "links": [
+        { "label": "WhatsApp Booking", "path": "/contact" },
+        { "label": "Self-Drive Rental", "path": "/services" },
+        { "label": "Commercial Shoots", "path": "/cameras" },
+        { "label": "Admin Dashboard", "path": "/admin" }
+      ]
+    }
+  ]
+}

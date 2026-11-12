@@ -1,0 +1,220 @@
+[
+  {
+    "id": "car-1",
+    "name": "Mercedes-Benz G-Class G63 AMG",
+    "brand": "Mercedes-Benz",
+    "category": "Luxury",
+    "hourlyPrice": 4500,
+    "dailyPrice": 38000,
+    "description": "The ultimate symbol of off-road prowess and opulent luxury. Featuring a twin-turbo V8, side exhausts, and handcrafted diamond-stitched Nappa leather interior.",
+    "images": [
+      "https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": true,
+    "active": true,
+    "specs": {
+      "seating": "5 Seater",
+      "fuel": "Petrol",
+      "transmission": "Automatic (9G-TRONIC)",
+      "mileage": "8.5 km/l",
+      "engine": "4.0L Twin-Turbo V8 (577 hp)"
+    },
+    "features": [
+      "Burmester 3D Surround Sound",
+      "360 Degree Camera System",
+      "All-Wheel Drive (4MATIC)",
+      "Active Lane Keeping Assist",
+      "Massaging Heated Seats",
+      "Apple CarPlay & Android Auto"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "car-2",
+    "name": "BMW M340i xDrive",
+    "brand": "BMW",
+    "category": "Sedan",
+    "hourlyPrice": 2200,
+    "dailyPrice": 18500,
+    "description": "Blistering acceleration matched with athletic sedan elegance. The legendary B58 inline-six engine delivers an exhilarating exhaust note and track-ready steering.",
+    "images": [
+      "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": true,
+    "active": true,
+    "specs": {
+      "seating": "5 Seater",
+      "fuel": "Petrol",
+      "transmission": "Automatic (8-Speed Sport)",
+      "mileage": "13.0 km/l",
+      "engine": "3.0L Turbocharged Inline-6 (382 hp)"
+    },
+    "features": [
+      "Harman Kardon Audio System",
+      "M Sport Brakes & Suspension",
+      "Head-Up Display",
+      "Panoramic Sunroof",
+      "Ambient Interior Lighting",
+      "Wireless Smartphone Charging"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "car-3",
+    "name": "Toyota Innova Crysta ZX Luxury",
+    "brand": "Toyota",
+    "category": "SUV",
+    "hourlyPrice": 900,
+    "dailyPrice": 6500,
+    "description": "India's favorite executive tourer. Unmatched road comfort, captain second-row lounge seats, robust suspension, and incredible touring reliability for crews and families.",
+    "images": [
+      "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": true,
+    "active": true,
+    "specs": {
+      "seating": "7 Seater (Captain Seats)",
+      "fuel": "Diesel",
+      "transmission": "Automatic",
+      "mileage": "14.5 km/l",
+      "engine": "2.4L D-4D Turbo Diesel"
+    },
+    "features": [
+      "Second-Row Reclining Captain Seats",
+      "Dual-Zone Climate Control",
+      "Rear Seat Ambient Illumination",
+      "Huge Luggage Capacity for Production Gear",
+      "7 Airbags for Maximum Safety"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "car-4",
+    "name": "Porsche 911 Carrera S (992)",
+    "brand": "Porsche",
+    "category": "Luxury",
+    "hourlyPrice": 6000,
+    "dailyPrice": 52000,
+    "description": "The quintessential sports car icon. Timeless silhouette, razor-sharp rear-engine dynamics, lightning-quick PDK dual-clutch transmission, and sensational curb appeal.",
+    "images": [
+      "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": true,
+    "active": true,
+    "specs": {
+      "seating": "2+2 Seater",
+      "fuel": "Petrol",
+      "transmission": "8-Speed Porsche Doppelkupplung (PDK)",
+      "mileage": "9.2 km/l",
+      "engine": "3.0L Twin-Turbo Flat-6 (443 hp)"
+    },
+    "features": [
+      "Sport Chrono Package with Mode Switch",
+      "Bose Surround Sound System",
+      "Sport Exhaust with Active Valves",
+      "Porsche Active Suspension Management",
+      "Launch Control"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "car-5",
+    "name": "Land Rover Defender 110 SE",
+    "brand": "Land Rover",
+    "category": "SUV",
+    "hourlyPrice": 3200,
+    "dailyPrice": 27000,
+    "description": "Capable of conquering any terrain while enveloping passengers in contemporary British luxury. Ideal for cinema camera chase vehicles and high-altitude mountain expeditions.",
+    "images": [
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": false,
+    "active": true,
+    "specs": {
+      "seating": "5+2 Seater",
+      "fuel": "Diesel",
+      "transmission": "8-Speed Automatic AWD",
+      "mileage": "11.5 km/l",
+      "engine": "3.0L Ingenium Inline-6 Twin-Turbo (300 hp)"
+    },
+    "features": [
+      "Electronic Air Suspension",
+      "Terrain Response 2 System",
+      "ClearSight Ground View Camera",
+      "Meridian Sound System",
+      "Roof Rail & Rigging Mount Points"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "car-6",
+    "name": "Audi A6 Matrix 45 TFSI",
+    "brand": "Audi",
+    "category": "Sedan",
+    "hourlyPrice": 1600,
+    "dailyPrice": 13500,
+    "description": "Sharp, futuristic executive sedan with dual MMI touchscreen cockpit, Matrix LED illumination, and acoustic sound insulation for quiet, refined cruising.",
+    "images": [
+      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1541348263662-e0c8de4259ba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": true,
+    "featured": false,
+    "active": true,
+    "specs": {
+      "seating": "5 Seater",
+      "fuel": "Petrol",
+      "transmission": "7-Speed S Tronic Dual-Clutch",
+      "mileage": "14.1 km/l",
+      "engine": "2.0L TFSI Turbo (245 hp)"
+    },
+    "features": [
+      "Virtual Cockpit Plus Display",
+      "Bang & Olufsen 3D Sound",
+      "Panoramic Glass Sunroof",
+      "Four-Zone Automatic Climate Control",
+      "Acoustic Glass Glazing"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  },
+  {
+    "id": "car-7",
+    "name": "Mini Cooper S Convertible",
+    "brand": "Mini",
+    "category": "Hatchback",
+    "hourlyPrice": 1400,
+    "dailyPrice": 11000,
+    "description": "Go-kart agility with open-top freedom. Perfect for music video shoots, scenic coastline cruising, and stylish city jaunts.",
+    "images": [
+      "https://images.unsplash.com/photo-1594970420791-c529d007c081?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "available": false,
+    "featured": false,
+    "active": true,
+    "specs": {
+      "seating": "4 Seater",
+      "fuel": "Petrol",
+      "transmission": "7-Speed Steptronic Sport",
+      "mileage": "16.8 km/l",
+      "engine": "2.0L MINI TwinPower Turbo (192 hp)"
+    },
+    "features": [
+      "Electric Soft-Top Roof with Sunroof Mode",
+      "Harman Kardon Hi-Fi Sound",
+      "Center Circular OLED Instrument Cluster",
+      "Sports Driving Mode with Exhaust Pops"
+    ],
+    "updatedAt": "2026-11-10T12:00:00Z"
+  }
+]
