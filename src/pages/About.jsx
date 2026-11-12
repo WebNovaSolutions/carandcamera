@@ -20,7 +20,7 @@ export default function About() {
     <div className="pt-28 pb-20 bg-dark-primary min-h-screen">
       <SEO
         title="About Us"
-        description="Learn about ApexMotion Rentals: our mission to blend luxury automotive rentals with cinema-standard camera equipment."
+        description="Learn about OneRentals: our mission to blend luxury automotive rentals with cinema-standard camera equipment."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,7 +45,7 @@ export default function About() {
               {about.description}
             </p>
             <p className="text-text-muted text-sm leading-relaxed">
-              Founded by passionate visual artists and automotive connoisseurs, ApexMotion was created to eliminate the friction in renting high-end equipment. We maintain our fleet to immaculate standards, ensuring every car feels brand new and every cinema camera kit is flight-case ready with fully charged batteries and verified media.
+              Founded by passionate visual artists and automotive connoisseurs, OneRentals was created to eliminate the friction in renting high-end equipment. We maintain our fleet to immaculate standards, ensuring every car feels brand new and every cinema camera kit is flight-case ready with fully charged batteries and verified media.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
@@ -73,7 +73,7 @@ export default function About() {
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden glass-card border border-white/10 shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
-                alt="ApexMotion Luxury Fleet"
+                alt="OneRentals Luxury Fleet"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark-primary via-transparent to-transparent opacity-80" />

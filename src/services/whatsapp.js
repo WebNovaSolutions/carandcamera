@@ -18,10 +18,10 @@ export function generateWhatsAppBookingUrl({
   const cleanNumber = sanitizePhoneNumber(businessNumber || '919876543210');
 
   const greeting = itemType === 'camera'
-    ? 'Hello ApexMotion, I am interested in renting professional camera equipment.'
+    ? 'Hello OneRentals, I am interested in renting professional camera equipment.'
     : itemType === 'service'
-    ? 'Hello ApexMotion, I am interested in booking a rental service package.'
-    : 'Hello ApexMotion, I am interested in renting a luxury vehicle.';
+    ? 'Hello OneRentals, I am interested in booking a rental service package.'
+    : 'Hello OneRentals, I am interested in renting a luxury vehicle.';
 
   const itemLabel = itemType === 'camera' ? 'Equipment' : itemType === 'service' ? 'Service' : 'Vehicle';
 
@@ -54,6 +54,6 @@ export function generateWhatsAppBookingUrl({
 
 export function generateDirectContactUrl(businessNumber, customMessage = '') {
   const cleanNumber = sanitizePhoneNumber(businessNumber || '919876543210');
-  const defaultText = customMessage || 'Hello ApexMotion, I would like to enquire about your car and camera rental services.';
+  const defaultText = customMessage || 'Hello OneRentals, I would like to enquire about your car and camera rental services.';
   return `https://wa.me/${cleanNumber}?text=${encodeURIComponent(defaultText)}`;
 }

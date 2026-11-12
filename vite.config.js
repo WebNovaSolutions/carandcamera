@@ -4,7 +4,6 @@ import loginHandler from './api/auth/login.js';
 import logoutHandler from './api/auth/logout.js';
 import meHandler from './api/auth/me.js';
 import saveContentHandler from './api/admin/save-content.js';
-import cloudinarySignHandler from './api/cloudinary/sign.js';
 
 function devApiPlugin(env) {
   return {
@@ -62,8 +61,6 @@ function devApiPlugin(env) {
             return await meHandler(req, customRes);
           } else if (url === '/api/admin/save-content') {
             return await saveContentHandler(req, customRes);
-          } else if (url === '/api/cloudinary/sign') {
-            return await cloudinarySignHandler(req, customRes);
           } else {
             customRes.status(404).json({ error: 'API route not found' });
           }

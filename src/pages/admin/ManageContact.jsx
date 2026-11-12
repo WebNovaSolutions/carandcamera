@@ -11,7 +11,7 @@ export default function ManageContact() {
     contact || {
       whatsappNumber: '919876543210',
       phoneNumber: '+91 98765 43210',
-      email: 'rentals@apexmotion.com',
+      email: 'rentals@onerentals.com',
       businessAddress: '',
       googleMapsEmbed: '',
       googleMapsLink: '',
@@ -118,7 +118,7 @@ export default function ManageContact() {
                 type="email"
                 value={formData.email || ''}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                placeholder="rentals@apexmotion.com"
+                placeholder="rentals@onerentals.com"
                 className="w-full bg-dark-secondary border border-white/10 rounded-xl px-3 py-2 text-white"
               />
             </div>

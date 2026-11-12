@@ -1,8 +1,8 @@
-# ApexMotion Rentals — Premium Luxury Car & Cinema Camera Rental Platform
+# OneRentals — Premium Luxury Car & Cinema Camera Rental Platform
 
 A modern, high-performance, responsive Car Rental and Camera Rental website with an intuitive Admin Dashboard.
 
-Engineered with a **No-Traditional-Database Architecture**: all content is stored in **GitHub JSON files**, committed via the **GitHub REST API** through **Vercel Serverless Functions**, media hosted on **Cloudinary**, and client reservations managed exclusively via **WhatsApp click-to-chat** with dynamic pre-filled messages.
+Engineered with a **No-Traditional-Database Architecture**: all content is stored in **GitHub JSON files**, committed via the **GitHub REST API** through **Vercel Serverless Functions**, online image links (Unsplash, Imgur, CDN, etc.) for zero third-party media overhead, and client reservations managed exclusively via **WhatsApp click-to-chat** with dynamic pre-filled messages.
 
 ---
 
@@ -10,7 +10,8 @@ Engineered with a **No-Traditional-Database Architecture**: all content is store
 
 - **Zero Traditional Database**: Eliminates the operational overhead and monthly cost of MongoDB, PostgreSQL, or Firestore.
 - **GitHub JSON Content Storage**: `public/data/*.json` serves as the primary dataset (`cars.json`, `cameras.json`, `services.json`, `website.json`, `contact.json`, `navigation.json`).
-- **Serverless API Layer**: Secure Vercel Serverless Functions (`/api/admin/save-content`, `/api/auth/*`, `/api/cloudinary/*`) manage GitHub commits and signed image uploads without exposing tokens to frontend JavaScript.
+- **Online Image Links**: Add high-definition online image URLs directly from Unsplash, Imgur, or any image CDN for cars and cameras with instant live previews and primary cover selection.
+- **Serverless API Layer**: Secure Vercel Serverless Functions (`/api/admin/save-content`, `/api/auth/*`) manage GitHub commits without exposing tokens to frontend JavaScript.
 - **WhatsApp Booking Desk**: Dynamic click-to-chat generator producing formatted, pre-filled rental requests with date calculations and pricing estimates.
 - **Dynamic Content Refresh**: Runtime JSON fetching with cache revalidation so updates made in the Admin Dashboard reflect on the customer website without triggering full Vercel rebuilds.
 - **Premium Dark UI**: Built with Tailwind CSS, Framer Motion animations, glassmorphism, glowing amber and electric blue accents, and responsive layout across desktop, tablet, and mobile.
@@ -24,9 +25,26 @@ Engineered with a **No-Traditional-Database Architecture**: all content is store
 | **Frontend** | React 18, Vite 6, Tailwind CSS, React Router DOM v6, Framer Motion, Lucide React, React Hook Form, React Hot Toast |
 | **Backend / API** | Vercel Serverless Functions (Node.js runtime), JWT session authentication, bcryptjs, native Fetch API |
 | **Storage & Sync** | GitHub REST API v3, JSON datasets (`public/data/`) |
-| **Media Hosting** | Cloudinary signed image uploads + URL image fallback |
+| **Media Links** | Direct Online Image URLs (Unsplash, Imgur, CDN, any web URL) |
 | **Communications** | WhatsApp Business Click-to-Chat (`https://wa.me/`) |
 | **Hosting** | Vercel, GitHub |
+
+---
+
+## 📋 What You Need Now (Configuration Checklist)
+
+Cloudinary has been completely removed. You do **NOT** need any Cloudinary account or API keys.
+
+To run the project in full production with GitHub auto-commits, you only need:
+
+1. **`GITHUB_TOKEN`**: A GitHub Personal Access Token (classic with `repo` scope or fine-grained with `Contents: Read and write`).
+2. **`GITHUB_OWNER`**: Your GitHub username or organization (e.g. `yourname`).
+3. **`GITHUB_REPO`**: The name of your GitHub repository (e.g. `onerentals`).
+4. **`GITHUB_BRANCH`**: Default branch name (usually `main`).
+5. **`ADMIN_PASSWORD`**: Your chosen password to log into `/admin` (defaults to `admin123` in dev).
+6. **`SESSION_SECRET`**: A 32+ character random secret string used to sign secure HttpOnly cookies.
+
+*(In local development mode without GitHub tokens, the dashboard safely saves directly to `public/data/*.json` on your local disk!)*
 
 ---
 
@@ -38,12 +56,10 @@ Engineered with a **No-Traditional-Database Architecture**: all content is store
 │   │   └── auth.js             # Session JWT signing and cookie management
 │   ├── admin/
 │   │   └── save-content.js     # Validates session & commits JSON to GitHub
-│   ├── auth/
-│   │   ├── login.js            # Admin password verification & cookie issuance
-│   │   ├── logout.js           # Session termination
-│   │   └── me.js               # Session status check
-│   └── cloudinary/
-│       └── sign.js             # Generates signed parameters for image upload
+│   └── auth/
+│       ├── login.js            # Admin password verification & cookie issuance
+│       ├── logout.js           # Session termination
+│       └── me.js               # Session status check
 ├── public/
 │   ├── data/                   # Primary JSON data storage
 │   │   ├── cars.json           # Luxury fleet catalogue & specifications
@@ -60,7 +76,7 @@ Engineered with a **No-Traditional-Database Architecture**: all content is store
 │   │   ├── CarCard.jsx         # Luxury vehicle display card
 │   │   ├── CameraCard.jsx      # Cinema equipment display card
 │   │   ├── Footer.jsx          # Dynamic multi-column footer
-│   │   ├── ImageUploader.jsx   # Cloudinary & URL image manager
+│   │   ├── ImageUploader.jsx   # Online image link manager & live previewer
 │   │   ├── Navbar.jsx          # Sticky glassmorphic navbar with mobile menu
 │   │   ├── ScrollToTop.jsx
 │   │   ├── SectionHeader.jsx
@@ -84,8 +100,8 @@ Engineered with a **No-Traditional-Database Architecture**: all content is store
 │   │   └── admin/
 │   │       ├── Login.jsx       # Admin login screen
 │   │       ├── Dashboard.jsx   # Overview statistics calculated from JSON
-│   │       ├── ManageCars.jsx  # Add/edit/delete cars, specs, images
-│   │       ├── ManageCameras.jsx # Add/edit/delete cameras, accessories
+│   │       ├── ManageCars.jsx  # Add/edit/delete cars, specs, image URLs
+│   │       ├── ManageCameras.jsx # Add/edit/delete cameras, image URLs
 │   │       ├── ManageServices.jsx# Service packages & pricing
 │   │       ├── ManageWebsite.jsx # Copywriting, hero, testimonials
 │   │       ├── ManageNavigation.jsx # Header & footer link editor
@@ -111,8 +127,8 @@ Engineered with a **No-Traditional-Database Architecture**: all content is store
 ### 1. Clone & Install Dependencies
 
 ```bash
-git clone https://github.com/your-username/cameracarrentals.git
-cd cameracarrentals
+git clone https://github.com/your-username/onerentals.git
+cd onerentals
 npm install
 ```
 
@@ -124,9 +140,8 @@ Copy `.env.example` to `.env`:
 cp .env.example .env
 ```
 
-Default local credentials:
+Default credentials:
 - **Admin Password**: `admin123`
-- In local development mode, content edits save directly to `public/data/*.json` on your local filesystem if GitHub variables are left blank.
 
 ### 3. Run Development Server
 
@@ -140,23 +155,17 @@ Open [http://localhost:5173](http://localhost:5173) in your browser:
 
 ---
 
-## 🔐 Environment Variables for Production (Vercel)
+## 🖼️ How to Add Online Images for Cars and Cameras
 
-When deploying to Vercel, set these in **Project Settings > Environment Variables**:
-
-| Variable | Description |
-|---|---|
-| `GITHUB_TOKEN` | Personal Access Token with `repo` (Contents read/write) permissions |
-| `GITHUB_OWNER` | Your GitHub username or organization |
-| `GITHUB_REPO` | Repository name (e.g. `cameracarrentals`) |
-| `GITHUB_BRANCH` | Default repository branch (usually `main`) |
-| `ADMIN_PASSWORD` | Plaintext admin password (or use hash below) |
-| `ADMIN_PASSWORD_HASH` | Optional bcrypt hash of the admin password |
-| `SESSION_SECRET` | 32+ character random secret string for JWT cookie signing |
-| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud identifier for image hosting |
-| `CLOUDINARY_API_KEY` | Cloudinary API Key |
-| `CLOUDINARY_API_SECRET` | Cloudinary API Secret (used by serverless signing) |
-| `CLOUDINARY_UPLOAD_PRESET`| Optional upload preset name |
+1. Navigate to **Admin Dashboard > Manage Cars** or **Manage Cameras**.
+2. Click **Add New Vehicle** or **Add New Equipment** (or click Edit on an existing item).
+3. In the **Online Image Links** section:
+   - Paste any image link from Unsplash, Imgur, Pexels, or your own CDN into the input field.
+   - An instant visual verification preview appears.
+   - Click **Add Image Link**.
+4. You can add up to 6 gallery links per item.
+5. Click **Set Primary** on any image to make it the primary cover image displayed in cards.
+6. Click **Save & Commit** to immediately update the live JSON data.
 
 ---
 
@@ -177,21 +186,8 @@ When deploying to Vercel, set these in **Project Settings > Environment Variable
    ```
    https://wa.me/<BUSINESS_NUMBER>?text=<ENCODED_MESSAGE>
    ```
-6. The customer confirms and chats directly with your team without credit card processing friction.
+6. The customer confirms and chats directly with your team.
 7. The business recipient number is fully editable in **Admin Dashboard > Contact Details**.
-
----
-
-## 🛡️ Admin Dashboard Features (`/admin`)
-
-- **Secure Session**: Protected by HttpOnly, SameSite cookies and JWT session verification.
-- **Genuine Overview Stats**: Total fleet, available equipment, featured listings, and recently updated items calculated directly from the JSON files.
-- **Car Management**: Full CRUD operations, image uploading, daily/hourly rates, specs (seating, fuel, transmission, engine), amenities, and availability flags.
-- **Camera Management**: Full CRUD operations, image uploading, cinema sensor specs, mount types, resolution, codecs, and included kit accessories.
-- **Service Packages**: Manage chauffeur services, self-drive policies, and crew assistant rates.
-- **Website Copywriting**: Modify headlines, hero backgrounds, about story, why choose us highlights, testimonials, and footer copyright text.
-- **Header & Footer**: Add, remove, or modify navigation links and footer columns.
-- **Direct GitHub Commit**: Every change is committed cleanly using the GitHub REST API with conflict handling and immediate runtime revalidation.
 
 ---
 
@@ -200,16 +196,10 @@ When deploying to Vercel, set these in **Project Settings > Environment Variable
 1. Push your repository to GitHub:
    ```bash
    git add .
-   git commit -m "Initial production release of ApexMotion"
+   git commit -m "OneRentals production release"
    git push origin main
    ```
 2. Import the repository in [Vercel](https://vercel.com/new).
 3. Set the Framework Preset to **Vite**.
-4. Add the Environment Variables listed above.
+4. Add the 6 environment variables from `.env.example`.
 5. Click **Deploy**. Your site will be live globally in under 2 minutes!
-
----
-
-## 📄 License
-
-MIT License. Designed and engineered for high-performance luxury automotive and cinema camera rentals.

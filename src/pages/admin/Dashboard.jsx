@@ -52,7 +52,7 @@ export default function Dashboard() {
             Operations & Fleet Center
           </span>
           <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
-            Welcome to ApexMotion Control
+            Welcome to OneRentals Control
           </h1>
           <p className="text-xs sm:text-sm text-text-muted mt-2 leading-relaxed">
             All prices, availability flags, and content edits are committed to GitHub JSON storage and refreshed immediately for website visitors.

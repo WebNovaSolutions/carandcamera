@@ -48,7 +48,7 @@ export default function CameraDetails() {
   const handleShare = () => {
     if (navigator.share) {
       navigator.share({
-        title: `${camera.name} - ApexMotion Rentals`,
+        title: `${camera.name} - OneRentals`,
         url: window.location.href,
       });
     } else {

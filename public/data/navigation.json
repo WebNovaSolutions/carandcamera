@@ -23,7 +23,7 @@
       "id": "col-2",
       "title": "Quick Navigation",
       "links": [
-        { "label": "About ApexMotion", "path": "/about" },
+        { "label": "About OneRentals", "path": "/about" },
         { "label": "Services & Packages", "path": "/services" },
         { "label": "How It Works", "path": "/#how-it-works" },
         { "label": "Why Choose Us", "path": "/#why-us" },

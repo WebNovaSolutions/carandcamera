@@ -333,7 +333,7 @@ export default function Home() {
       <section id="why-us" className="py-20 bg-dark-primary relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
-            badge="The ApexMotion Standard"
+            badge="The OneRentals Standard"
             title="Why Choose Our Rental Platform"
             subtitle="Built for discerning clients who demand absolute reliability, pristine presentation, and friction-free booking."
           />

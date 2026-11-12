@@ -57,7 +57,7 @@ export default async function handler(req, res) {
           headers: {
             Authorization: `Bearer ${token}`,
             Accept: 'application/vnd.github.v3+json',
-            'User-Agent': 'ApexMotion-Admin',
+            'User-Agent': 'OneRentals-Admin',
           },
         });
 
@@ -90,7 +90,7 @@ export default async function handler(req, res) {
           Authorization: `Bearer ${token}`,
           Accept: 'application/vnd.github.v3+json',
           'Content-Type': 'application/json',
-          'User-Agent': 'ApexMotion-Admin',
+          'User-Agent': 'OneRentals-Admin',
         },
         body: JSON.stringify(commitBody),
       });

@@ -7,10 +7,10 @@ import { generateDirectContactUrl } from '../services/whatsapp';
 export default function Footer({ onOpenBooking }) {
   const { website, contact, navigation } = useData();
 
-  const brandName = website?.name || 'ApexMotion';
+  const brandName = website?.name || 'OneRentals';
   const footerDesc = website?.footer?.description ||
     'Your ultimate destination for premium car rentals and cinema-grade camera gear. Elevating creative productions and executive travel with speed, elegance, and reliability.';
-  const copyright = website?.footer?.copyright || '© 2026 ApexMotion Rentals. All rights reserved.';
+  const copyright = website?.footer?.copyright || '© 2026 OneRentals. All rights reserved.';
 
   const footerCols = navigation?.footerColumns || [];
   const whatsappUrl = generateDirectContactUrl(contact?.whatsappNumber);
@@ -29,7 +29,7 @@ export default function Footer({ onOpenBooking }) {
                 </div>
               </div>
               <span className="text-xl font-extrabold tracking-tight text-white">
-                {brandName.split(' ')[0]} <span className="text-accent-amber">{brandName.split(' ')[1] || 'Rentals'}</span>
+                One<span className="text-accent-amber">Rentals</span>
               </span>
             </Link>
 
@@ -156,7 +156,7 @@ export default function Footer({ onOpenBooking }) {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-text-dim gap-4">
           <p>{copyright}</p>
           <div className="flex items-center space-x-6">
-            <span>Powered by GitHub API & Cloudinary</span>
+            <span>Powered by GitHub JSON Storage & Vercel Serverless</span>
             <Link to="/admin" className="hover:text-text-muted transition">
               Admin Portal
             </Link>

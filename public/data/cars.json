@@ -4,7 +4,7 @@
     "name": "Mercedes-Benz G-Class G63 AMG",
     "brand": "Mercedes-Benz",
     "category": "Luxury",
-    "hourlyPrice": 4500,
+    "hourlyPrice": 44995,
     "dailyPrice": 38000,
     "description": "The ultimate symbol of off-road prowess and opulent luxury. Featuring a twin-turbo V8, side exhausts, and handcrafted diamond-stitched Nappa leather interior.",
     "images": [
@@ -30,7 +30,7 @@
       "Massaging Heated Seats",
       "Apple CarPlay & Android Auto"
     ],
-    "updatedAt": "2026-11-10T12:00:00Z"
+    "updatedAt": "2026-11-12T09:55:10.193Z"
   },
   {
     "id": "car-2",

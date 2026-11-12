@@ -38,7 +38,7 @@ export default function Contact() {
     }
 
     const businessNumber = contact?.whatsappNumber || '919876543210';
-    let text = `Hello ApexMotion,\n\n`;
+    let text = `Hello OneRentals,\n\n`;
     text += `👤 *Name:* ${formData.name}\n`;
     if (formData.phone) text += `📱 *Phone:* ${formData.phone}\n`;
     text += `🏷️ *Interest:* ${formData.interest}\n`;
@@ -279,7 +279,7 @@ export default function Contact() {
             {contact?.googleMapsEmbed && (
               <div className="glass-card rounded-3xl overflow-hidden border border-white/5 aspect-[16/9] w-full">
                 <iframe
-                  title="ApexMotion Location"
+                  title="OneRentals Location"
                   src={contact.googleMapsEmbed}
                   width="100%"
                   height="100%"

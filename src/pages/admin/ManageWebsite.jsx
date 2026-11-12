@@ -10,7 +10,7 @@ export default function ManageWebsite() {
 
   const [formData, setFormData] = useState(
     website || {
-      name: 'ApexMotion Rentals',
+      name: 'OneRentals',
       hero: {},
       about: {},
       whyChooseUs: [],

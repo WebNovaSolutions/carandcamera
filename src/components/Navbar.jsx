@@ -33,8 +33,8 @@ export default function Navbar({ onOpenBooking }) {
     { label: 'Contact', path: '/contact' },
   ];
 
-  const brandName = website?.name || 'ApexMotion';
-  const whatsappUrl = generateDirectContactUrl(contact?.whatsappNumber, 'Hello ApexMotion, I would like to enquire about renting a car or camera.');
+  const brandName = website?.name || 'OneRentals';
+  const whatsappUrl = generateDirectContactUrl(contact?.whatsappNumber, 'Hello OneRentals, I would like to enquire about renting a car or camera.');
 
   return (
     <header
@@ -54,8 +54,7 @@ export default function Navbar({ onOpenBooking }) {
             </div>
             <div>
               <span className="text-xl font-extrabold tracking-tight text-white block">
-                {brandName.split(' ')[0]}
-                <span className="text-accent-amber">{brandName.split(' ')[1] || 'Rentals'}</span>
+                One<span className="text-accent-amber">Rentals</span>
               </span>
               <span className="text-[10px] tracking-wider uppercase text-text-dim block -mt-1 font-semibold">
                 Luxury Cars & Cinema Gear

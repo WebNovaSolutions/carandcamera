@@ -3,7 +3,7 @@ import { useData } from '../context/DataContext';
 
 export default function SEO({ title, description }) {
   const { website } = useData();
-  const siteName = website?.name || 'ApexMotion Rentals';
+  const siteName = website?.name || 'OneRentals';
 
   useEffect(() => {
     document.title = title ? `${title} | ${siteName}` : `${siteName} - Luxury Car & Cinema Camera Rentals`;

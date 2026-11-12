@@ -82,7 +82,7 @@ export default function AdminLayout() {
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <div>
-                <span className="text-base font-extrabold text-white block">ApexMotion</span>
+                <span className="text-base font-extrabold text-white block">OneRentals</span>
                 <span className="text-[10px] text-accent-amber font-mono uppercase tracking-wider block font-bold">
                   Admin Control
                 </span>

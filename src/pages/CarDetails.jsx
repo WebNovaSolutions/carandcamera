@@ -48,7 +48,7 @@ export default function CarDetails() {
   const handleShare = () => {
     if (navigator.share) {
       navigator.share({
-        title: `${car.name} - ApexMotion Rentals`,
+        title: `${car.name} - OneRentals`,
         url: window.location.href,
       });
     } else {

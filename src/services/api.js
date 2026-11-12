@@ -1,6 +1,6 @@
 /**
  * API Service for fetching JSON content, saving via Serverless Functions,
- * admin authentication, and Cloudinary image uploads.
+ * and admin authentication.
  */
 
 // Fetch JSON data file at runtime with cache-busting
@@ -82,57 +82,3 @@ export async function checkAdminAuth() {
   }
 }
 
-// Cloudinary Image Upload
-export async function uploadToCloudinary(file) {
-  // 1. Request signature from serverless function
-  const signRes = await fetch('/api/cloudinary/sign', {
-    method: 'POST',
-  });
-
-  const signData = await signRes.json();
-
-  if (!signRes.ok || !signData.configured) {
-    // If Cloudinary server credentials are not fully configured in env,
-    // we can convert to a base64 data URL or notify user
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = () => {
-        // Return data URL as fallback
-        resolve({
-          url: reader.result,
-          isLocal: true,
-          notice: 'Cloudinary not configured; used inline image.',
-        });
-      };
-      reader.onerror = reject;
-      reader.readAsDataURL(file);
-    });
-  }
-
-  // 2. Perform signed upload to Cloudinary API
-  const { signature, timestamp, apiKey, cloudName, folder } = signData;
-  const formData = new FormData();
-  formData.append('file', file);
-  formData.append('api_key', apiKey);
-  formData.append('timestamp', timestamp);
-  formData.append('signature', signature);
-  formData.append('folder', folder);
-
-  const uploadRes = await fetch(
-    `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`,
-    {
-      method: 'POST',
-      body: formData,
-    }
-  );
-
-  const uploadResult = await uploadRes.json();
-  if (!uploadRes.ok) {
-    throw new Error(uploadResult.error?.message || 'Cloudinary upload failed');
-  }
-
-  return {
-    url: uploadResult.secure_url,
-    publicId: uploadResult.public_id,
-  };
-}

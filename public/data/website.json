@@ -1,7 +1,7 @@
 {
-  "name": "ApexMotion Rentals",
+  "name": "OneRentals",
   "tagline": "Premium Luxury Cars & Cinema Camera Equipment Rentals",
-  "logo": "ApexMotion",
+  "logo": "OneRentals",
   "favicon": "/favicon.ico",
   "hero": {
     "headline": "Your Journey. Your Gear. Your Experience.",
@@ -93,7 +93,7 @@
       "role": "Cinematographer & Commercial Director",
       "rating": 5,
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
-      "comment": "ApexMotion provided a Sony FX6 with a set of GM master lenses and an Audi Q7 for our automotive shoot in Himachal. Flawless service, gear in mint condition, and WhatsApp booking was lightning fast!"
+      "comment": "OneRentals provided a Sony FX6 with a set of GM master lenses and an Audi Q7 for our automotive shoot in Himachal. Flawless service, gear in mint condition, and WhatsApp booking was lightning fast!"
     },
     {
       "id": 2,
@@ -119,6 +119,6 @@
   },
   "footer": {
     "description": "Your ultimate destination for premium car rentals and cinema-grade camera gear. Elevating creative productions and executive travel with speed, elegance, and reliability.",
-    "copyright": "© 2026 ApexMotion Rentals. All rights reserved."
+    "copyright": "© 2026 OneRentals. All rights reserved."
   }
 }
