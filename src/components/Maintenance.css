@@ -1,0 +1,84 @@
+.maintenance-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  box-sizing: border-box;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #334155
+  );
+  font-family: Arial, sans-serif;
+}
+
+.maintenance-card {
+  max-width: 650px;
+  width: 100%;
+  padding: 55px 30px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.maintenance-icon {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.maintenance-status {
+  display: inline-block;
+  background: #fff7ed;
+  color: #ea580c;
+  padding: 9px 18px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.maintenance-card h1 {
+  color: #0f172a;
+  font-size: 38px;
+  margin: 25px 0 15px;
+}
+
+.maintenance-card p {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.maintenance-subtext {
+  margin-top: 15px;
+}
+
+.maintenance-line {
+  width: 70px;
+  height: 4px;
+  background: #2563eb;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.maintenance-card h3 {
+  color: #1e293b;
+}
+
+.maintenance-footer {
+  font-size: 13px !important;
+}
+
+@media (max-width: 600px) {
+  .maintenance-card {
+    padding: 40px 20px;
+  }
+
+  .maintenance-card h1 {
+    font-size: 29px;
+  }
+}
