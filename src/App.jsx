@@ -120,7 +120,7 @@ import Maintenance from './components/Maintenance';
 // true  = Maintenance ON
 // false = Website LIVE
 // ==================================
-const MAINTENANCE_MODE = true;
+const MAINTENANCE_MODE = false;
 
 // Layouts
 import MainLayout from './layouts/MainLayout';
